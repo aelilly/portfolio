@@ -20,6 +20,11 @@ h2 {
     
 }
 
+img {
+    height: auto;
+    max-width: 100%;
+}
+
 .global-nav {
     background-color: #90aaed;
     margin: 0 calc(50% - 50vw);
