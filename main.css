@@ -96,3 +96,27 @@ img {
     margin: 0 auto;
     max-width: var(--body-width);
 }
+
+.hero {
+    background: url("/images/Photography/Sports/IMG_5008.JPG");
+    background-position: center center;
+    background-size: cover;
+    border: 2px solid black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 50dvh;
+    margin: 1rem 0;
+    padding: 2rem;
+}
+
+.hero_title {
+
+}
+
+.hero_action {
+    background-color: blue;
+    color: white;
+    display: inline-block;
+    padding: 1rem;
+    text-align: right;
+    text-decoration: none;
+}
