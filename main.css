@@ -98,7 +98,7 @@ img {
 }
 
 .hero {
-    background: url("/images/Photography/Sports/IMG_5008.JPG");
+    /*background: url("/images/Photography/Sports/IMG_5008.JPG");*/
     background-position: center center;
     background-size: cover;
     border: 2px solid black;
