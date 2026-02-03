@@ -7,67 +7,67 @@ function rand(n, timeSeed = null) {
 
 const heroImages = [
     {
-        "src": "/images/Photography/Sports/IMG_0465.JPG",
+        "src": "/images/photography/sports/IMG_0465.JPG",
         "alt": "man catching frisbee",
         "caption": "Image 1"
     },
     {
-        "src": "/images/Photography/Sports/IMG_0629.JPG",
+        "src": "/images/photography/sports/IMG_0629.JPG",
         "alt": "man catching frisbee",
         "caption": "Image 2"
     },
     {
-        "src": "/images/Photography/Sports/IMG_9758.JPG",
+        "src": "/images/photography/sports/IMG_9758.JPG",
         "alt": "man catching frisbee",
         "caption": "Image 3"
     },
     {
-        "src": "/images/Photography/Sports/IMG_9769.JPG",
+        "src": "/images/photography/sports/IMG_9769.JPG",
         "alt": "man catching frisbee",
         "caption": "Image 4"
     },
     {
-        "src": "/images/Photography/Sports/IMG_9854.JPG",
+        "src": "/images/photography/sports/IMG_9854.JPG",
         "alt": "man catching frisbee",
         "caption": "Image 1"
     },
     {
-        "src": "/images/Photography/Sports/IMG_4662.JPG",
+        "src": "/images/photography/sports/IMG_4662.JPG",
         "alt": "man catching frisbee",
         "caption": "Image 2"
     },
     {
-        "src": "/images/Photography/Sports/IMG_4692.JPG",
+        "src": "/images/photography/sports/IMG_4692.JPG",
         "alt": "man catching frisbee",
         "caption": "Image 3"
     },
     {
-        "src": "/images/Photography/Sports/IMG_4772.JPG",
+        "src": "/images/photography/sports/IMG_4772.JPG",
         "alt": "man catching frisbee",
         "caption": "Image 4"
     }
     ,{
-        "src": "/images/Photography/Sports/IMG_4901.JPG",
+        "src": "/images/photography/sports/IMG_4901.JPG",
         "alt": "man catching frisbee",
         "caption": "Image 1"
     },
     {
-        "src": "/images/Photography/Sports/IMG_4991.JPG",
+        "src": "/images/photography/sports/IMG_4991.JPG",
         "alt": "man catching frisbee",
         "caption": "Image 2"
     },
     {
-        "src": "/images/Photography/Sports/IMG_5008.JPG",
+        "src": "/images/photography/sports/IMG_5008.JPG",
         "alt": "man catching frisbee",
         "caption": "Image 3"
     },
     {
-        "src": "/images/Photography/Sports/IMG_5076.JPG",
+        "src": "/images/photography/sports/IMG_5076.JPG",
         "alt": "man catching frisbee",
         "caption": "Image 4"
     },
     {
-        "src": "/images/Photography/Sports/IMG_5197.JPG",
+        "src": "/images/photography/sports/IMG_5197.JPG",
         "alt": "man catching frisbee",
         "caption": "Image 2"
     }
@@ -76,4 +76,5 @@ const random = rand(heroImages.length);
 const randomImage = heroImages[random];
 console.log(heroImages[random]);
 const randomContainer = document.getElementById("photography_hero");
-randomContainer.background = randomImage.src;
+randomContainer.style.backgroundImage = "url('" + randomImage.src + "')";
+console.log(randomContainer);

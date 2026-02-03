@@ -8,22 +8,22 @@ function rand(n, timeSeed = null) {
 
 const sportsImages = [
     {
-        "src": "/images/Photography/Sports/IMG_4662.JPG",
+        "src": "/images/photography/sports/IMG_4662.JPG",
         "alt": "man catching frisbee",
         "caption": "Image 1"
     },
     {
-        "src": "/images/Photography/Sports/IMG_4692.JPG",
+        "src": "/images/photography/sports/IMG_4692.JPG",
         "alt": "man catching frisbee",
         "caption": "Image 2"
     },
     {
-        "src": "/images/Photography/Sports/IMG_4772.JPG",
+        "src": "/images/photography/sports/IMG_4772.JPG",
         "alt": "man catching frisbee",
         "caption": "Image 3"
     },
     {
-        "src": "/images/Photography/Sports/IMG_4901.JPG",
+        "src": "/images/photography/sports/IMG_4901.JPG",
         "alt": "man catching frisbee",
         "caption": "Image 4"
     }
