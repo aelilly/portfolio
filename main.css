@@ -8,7 +8,7 @@ html {
 }
 
 body {
-    background-color: #ccc;
+    background-color: #ece953;
     margin: 0 auto;
     max-width: var(--body-width);
     padding: 0;
@@ -107,7 +107,8 @@ img {
     /*background: url("/images/photography/sports/IMG_5008.JPG");*/
     background-position: center center;
     background-size: cover;
-    border: 2px solid black;
+    border: .25rem solid black;
+    border-radius: 1rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     height: 100dvh;
     margin: 1rem 0;
@@ -115,14 +116,28 @@ img {
 }
 
 .hero_title {
+    background-color: #90aaed3e;
+    border-radius: 2rem;
+    color: gainsboro;
+    display: inline-block;
+    padding: .75rem;
+}
 
+.hero_tagline {
+    background-color: #90aaed3e;
+    border-radius: .25rem;
+    color: gainsboro;
+    display: table;
+    padding: .25rem;
 }
 
 .hero_action {
-    background-color: blue;
-    color: white;
+    background-color: #90aaed;
+    border: 3px solid black;
+    border-radius: .25rem;
+    color: gainsboro;
     display: inline-block;
-    padding: 1rem;
+    padding: .5rem;
     text-align: right;
     text-decoration: none;
 }
