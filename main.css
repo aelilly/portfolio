@@ -25,6 +25,10 @@ img {
     max-width: 100%;
 }
 
+p {
+    width: 80%
+}
+
 .global-nav {
     background-color: #90aaed;
     margin: 0 calc(50% - 50vw);
