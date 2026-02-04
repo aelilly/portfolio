@@ -7,27 +7,27 @@ function rand(n, timeSeed = null) {
 
 const heroImages = [
     {
-        "src": "/images/photography/sports/IMG_0465.JPG",
+        "src": "/images/photography/sports/_MG_0465.JPG",
         "alt": "man catching frisbee",
         "caption": "Image 1"
     },
     {
-        "src": "/images/photography/sports/IMG_0629.JPG",
+        "src": "/images/photography/sports/_MG_0629.JPG",
         "alt": "man catching frisbee",
         "caption": "Image 2"
     },
     {
-        "src": "/images/photography/sports/IMG_9758.JPG",
+        "src": "/images/photography/sports/_MG_9758.JPG",
         "alt": "man catching frisbee",
         "caption": "Image 3"
     },
     {
-        "src": "/images/photography/sports/IMG_9769.JPG",
+        "src": "/images/photography/sports/_MG_9769.JPG",
         "alt": "man catching frisbee",
         "caption": "Image 4"
     },
     {
-        "src": "/images/photography/sports/IMG_9854.JPG",
+        "src": "/images/photography/sports/_MG_9854.JPG",
         "alt": "man catching frisbee",
         "caption": "Image 1"
     },
